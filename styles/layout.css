@@ -17,10 +17,6 @@ header, aside, main * {
   border: 1px solid #222;
 }
 
-header {
-  width: 100%;
-}
-
 main {
   overflow: hidden;
   width: 100%;
