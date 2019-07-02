@@ -23,12 +23,28 @@
   background-color: rgb(41, 190, 235);
 }
 
+.main-content:nth-child(2){
+  background-color: rgb(10, 138, 177);
+}
+
 .content-box {
   float: left;
   width: 50%;
   height: 250px;
   line-height: 250px;
   background-color: rgb(191, 231, 244);
+}
+
+.content-box:nth-child(2) {
+  background-color: rgb(131, 163, 173);
+}
+
+.content-box:nth-child(3) {
+  background-color: rgb(99, 170, 194);
+}
+
+.content-box:nth-child(4) {
+  background-color: rgb(37, 63, 72);
 }
 
 .main-footer {
@@ -62,12 +78,28 @@
     line-height: 200px;
     background-color: rgb(59, 82, 44);
   }
+
+  .main-content:nth-child(2){
+    background-color: rgb(17, 79, 19);
+  }
   
   .content-box {
     width: 25%;
     height: 250px;
     line-height: 250px;
     background-color: rgb(118, 165, 108);
+  }
+
+  .content-box:nth-child(2) {
+    background-color: rgb(74, 104, 67);
+  }
+  
+  .content-box:nth-child(3) {
+    background-color: rgb(94, 160, 79);
+  }
+  
+  .content-box:nth-child(4) {
+    background-color: rgb(72, 116, 62);
   }
   
   .main-footer {
