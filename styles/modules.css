@@ -1,9 +1,11 @@
 .nav-bar {
+  height: 75px;
   line-height: 75px;
   background-color: rgb(143, 182, 194);
 }
 
 .details {
+  height: 150px;
   line-height: 150px;
   background-color: rgb(36, 95, 113);
 }
@@ -30,6 +32,47 @@
 }
 
 .main-footer {
+  height: 80px;
   line-height: 80px;
   background-color: rgb(36, 95, 113);
+}
+
+@media(min-width: 768px){
+  .nav-bar {
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(81, 162, 58);
+  }
+  
+  .details {
+    float: left;
+    height: 600px;
+    width: calc(100% * (200 / 960));
+    line-height: 600px;
+    background-color: rgb(169, 198, 122);
+  }
+
+  .main {
+    width: calc(100% * (760 / 960));
+  }
+  
+  .main-content {
+    width: 50%;
+    height: 200px;
+    line-height: 200px;
+    background-color: rgb(59, 82, 44);
+  }
+  
+  .content-box {
+    width: 25%;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(118, 165, 108);
+  }
+  
+  .main-footer {
+    height: 150px;
+    line-height: 150px;
+    background-color: rgb(89, 99, 74);
+  }
 }
